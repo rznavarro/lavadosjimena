@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F4FAFA" />
+      <stop offset="100%" stop-color="#E3F4F5" />
+    </linearGradient>
+    <filter id="shadow" x="-5%" y="-5%" width="110%" height="110%">
+      <feDropShadow dx="0" dy="12" stdDeviation="24" flood-color="#0F2A33" flood-opacity="0.08" />
+    </filter>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)" />
+  <circle cx="1100" cy="80" r="320" fill="#6CCDD5" opacity="0.18" />
+  <circle cx="100" cy="550" r="220" fill="#0E7C86" opacity="0.08" />
+  
+  <!-- Wave decoration -->
+  <path d="M 0 490 Q 300 450 600 490 T 1200 490" fill="none" stroke="#6CCDD5" stroke-width="4" opacity="0.4" />
+  <path d="M 0 515 Q 300 475 600 515 T 1200 515" fill="none" stroke="#0E7C86" stroke-width="2" opacity="0.25" />
+
+  <!-- Main Card -->
+  <g transform="translate(100, 75)">
+    <rect width="1000" height="480" rx="32" fill="#FFFFFF" stroke="#D6E7E8" stroke-width="2" filter="url(#shadow)" />
+    
+    <!-- Eyebrow -->
+    <text x="70" y="90" font-family="system-ui, -apple-system, sans-serif" font-size="20" font-weight="700" fill="#0E7C86" letter-spacing="1.5">EMPRESA FAMILIAR · DESDE 2016 · SANTIAGO DE CHILE</text>
+    
+    <!-- Title -->
+    <text x="70" y="165" font-family="system-ui, -apple-system, sans-serif" font-size="46" font-weight="800" fill="#0F2A33">Lavado de alfombras, sofás</text>
+    <text x="70" y="225" font-family="system-ui, -apple-system, sans-serif" font-size="46" font-weight="800" fill="#0F2A33">y colchones a domicilio</text>
+    
+    <!-- Subtitle -->
+    <text x="70" y="285" font-family="system-ui, -apple-system, sans-serif" font-size="22" font-weight="500" fill="#3D5A64">Limpieza y sanitización profesional en toda la Región Metropolitana.</text>
+    <text x="70" y="320" font-family="system-ui, -apple-system, sans-serif" font-size="22" font-weight="500" fill="#3D5A64">Atendemos hogares y empresas · Carlos Dittborn 890, Ñuñoa.</text>
+    
+    <!-- Badge / CTA info -->
+    <rect x="70" y="370" width="340" height="54" rx="27" fill="#0E7C86" />
+    <text x="110" y="404" font-family="system-ui, -apple-system, sans-serif" font-size="20" font-weight="700" fill="#FFFFFF">Cotizar por WhatsApp →</text>
+    
+    <text x="440" y="404" font-family="system-ui, -apple-system, sans-serif" font-size="20" font-weight="600" fill="#0F2A33">+56 9 6346 7293</text>
+  </g>
+</svg>

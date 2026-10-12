@@ -1,0 +1,6 @@
+{
+  "name": "Lavados Jimena - Limpieza a Domicilio y Lavandería en Santiago",
+  "description": "Lavado de alfombras, sofás y colchones a domicilio en Santiago. Empresa familiar fundada en 2016 en Ñuñoa. Atención a toda la Región Metropolitana.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
